@@ -4,8 +4,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1> Hello from React!</h1>
-      <Header title='Holla'/>
+      <Header title='ttracker'/>
     </div>
   );
 }
