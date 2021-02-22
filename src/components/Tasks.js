@@ -10,7 +10,7 @@ const tasks = [
 
 
 const Tasks = () => {
-    retuen (
+    return (
         <div>
 
         </div>
