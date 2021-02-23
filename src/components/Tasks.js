@@ -32,7 +32,7 @@ const Tasks = () => {
     return (
         <div>
             { tasks.map((task) => (
-                <h4> {task.text} </h4>
+                <h4 key={task.id}> {task.text} </h4>
             ))}
 
         </div>
