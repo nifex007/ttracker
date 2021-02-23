@@ -2,13 +2,13 @@ const tasks = [
     {
         id: 1,
         text: 'Call Bae',
-        dat: 'Feb 27th at 2:30pm',
+        date: 'Feb 27th at 2:30pm',
         reminder: true
     },
     {
         id: 2,
         text: 'Check on Chinwe',
-        dat: 'March 1st at 2:30pm',
+        date: 'March 1st at 2:30pm',
         reminder: true
         
     },
