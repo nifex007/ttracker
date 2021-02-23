@@ -31,6 +31,9 @@ const tasks = [
 const Tasks = () => {
     return (
         <div>
+            { tasks.map((task) => (
+                <h4> {task.text} </h4>
+            ))}
 
         </div>
     )
