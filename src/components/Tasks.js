@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import Task from './Task';
 
-const Tasks = ({ tasks }) => (
+const Tasks = ({ tasks, onDelete }) => (
   <div>
-    {tasks.map((task) => <Task key={task.id} task={task} />)}
+    {tasks.map((task) => <Task key={task.id} task={task} onDelete={onDelete} />)}
   </div>
 );
 
