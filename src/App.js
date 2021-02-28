@@ -12,7 +12,7 @@ function App() {
     },
     {
       id: 2,
-      text: 'Check on Chinwe',
+      text: 'Check on Nikky',
       date: 'March 1st at 2:30pm',
       reminder: true,
 
