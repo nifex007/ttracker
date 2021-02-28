@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import Task from './Task';
 
 const Tasks = ({ tasks }) => (
   <div>
-    {tasks.map((task) => <h4 key={task.id}>{task.text}</h4>)}
+    {tasks.map((task) => <Task key={task.id} task={task} />)}
   </div>
 );
 
